@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // module options
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+
+    // output options
+    "target": "ESNext",
+    "noEmit": true,
+
+    // type checking options
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+
+    // other options
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true
+  }
+}
